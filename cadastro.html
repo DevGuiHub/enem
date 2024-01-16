@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    
+    <title>Cadastro</title>
+    
+    <link rel="stylesheet" href="estilocadastro.css">
+</head>
+<body>
+    <header>
+        <div class="links">
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Voltar </a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main>
+        <body>
+            <div class="caixa">
+                <h1>Cadastro</h1>
+                <form action="cadastrophp.php" method="POST">
+                
+                
+                <div class="campo">
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+        
+                <div class="campo">
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div> 
+
+                <div class="campo">
+                    <input type="text" id="nome_usuario" name="nome_usuario" placeholder="Crie um nome de usuário" required>
+                </div> 
+
+                <div class="campo">
+                    <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required>
+                </div> 
+
+
+                <div class="nasc">
+                    <label class="nasc">Data de nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento">
+                  </div>
+
+
+                <button>Cadastrar</button>
+
+            </form>
+        
+
+                <div class="login">
+                    Já possui uma conta? <a href="login.php">Fazer Login
+                </div>
+
+            </div>
+
+
+        
+            
+    </main>
+          <footer>
+
+          </footer>   
+        </body>
+</html>

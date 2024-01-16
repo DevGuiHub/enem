@@ -1,0 +1,158 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    padding: 0;
+	margin: 0;
+	border: 0;
+}
+header{
+	background: #ffffff;
+
+}
+
+.caixa{
+	position: relative;
+	width:auto;
+	margin: 0 auto; /*centralizado*/
+	background: rgb(98, 122, 199);
+    font-family: 'Roboto Slab', serif;
+    padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+nav li a:link {
+	color: rgb(255, 255, 255);
+	text-decoration: none ;
+    font-family: 'Roboto Slab', serif;
+    padding: 30px 20px;
+    
+}
+header a:visited{
+	color: rgb(255, 255, 255);
+}
+
+.h2{
+    width: 1000px;
+    height: 50px;
+    padding: 1rem 1rem;
+    margin-top: 30px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(139, 139, 139, 0.3);   
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+  .linha{
+    
+    display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top; /* em cima*/
+	margin: 4px 1.5%;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 20px;
+	height: 250px;
+    box-shadow: 0 20px 35px rgb(0, 0, 0, 0.3);
+}   
+
+.l1{
+    width: 940px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+    margin: 50px auto;
+    margin-top: -100px
+}
+
+.l2{
+    width: 940px;
+    margin: 0 auto;
+    padding: 100px ;
+    text-align: center;
+    margin: 50px auto;
+    margin-top: -200px ;
+}
+
+.l1 a:any-link{
+    color :rgb(160, 173, 231);
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+.l2 a:any-link{
+    color :rgb(160, 173, 231);
+    text-decoration: none ;
+    font-family: 'Roboto Slab', serif;
+}
+   
+nav li a:link{
+    color: azure;
+}
+
+header a :visited{
+    color: azure;
+}
+
+
+
+/*MENU*/
+ul,ol{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+.menu a{
+    display: block;
+    padding: 20px 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    background: rgb(158, 175, 228);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+ul li ul.drop li{
+   display: block; 
+}
+ul li ul.drop{
+    width: 100%;
+    background: rgb(158, 175, 228);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.menu a:hover{
+    background: rgb(98, 122, 199);
+}
+ul li:hover ul.drop{
+    display: block;
+}
+
+
+footer{
+	background:  rgb(98, 122, 199);
+    padding-top: 20px;
+    padding-bottom: 20px;
+	width: 100%;
+	bottom: 10px;
+	margin-top: 50px;
+}
+
+h3.footer{
+	color: rgb(230, 230, 230);
+	text-align: center;
+	font-size: 18px;
+}
+
+
